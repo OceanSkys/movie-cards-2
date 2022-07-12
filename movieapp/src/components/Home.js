@@ -1,5 +1,3 @@
-import HighlightCard from "./HighlightCard";
-import MovieCard from "./MovieCard";
 import { useState, useEffect } from 'react'
 
 // const API_KEY = process.env.REACT_APP_HOLIDAYS_API_KEY;
