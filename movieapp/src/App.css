@@ -36,3 +36,154 @@
     transform: rotate(360deg);
   }
 }
+ body {
+  background: url('./imgs/pexels-pixabay-274937.jpg') no-repeat center center fixed; 
+  background-size: cover;
+ }
+ .input {
+  height: 30px;
+ }
+.MovieCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 0px 4px 8px #c8c5dc;
+  border: 1px solid #9a94bf;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 15px;
+  width: 15vw;
+  height: 480px;
+  padding: 20px;
+  overflow: hidden;
+}
+.MoviePoster {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.MoviePosterPlot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: fit-content;
+  width: auto;
+  background-color:cadetblue;
+  padding-bottom: 20px;
+
+}
+/* .desc{
+  font-size: 25px;
+} */
+.plot {
+  font-size: 20px;
+  height: auto;
+  width: 350px;
+}
+.plotDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 400px;
+  border: solid;
+  border-radius: 25px;
+  background-color: aliceblue;
+}
+.plotTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 400px;
+  border: solid;
+  border-radius: 25px;
+  background-color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.MovieCard-Container {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.MovieCardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-content: center; */
+  width: auto;
+  height: auto;
+  border: solid 5px;
+  border-radius: 1%;
+  background-color: cadetblue;
+  margin-top: 30px;
+}
+.MovieDetailsContent {
+/* background-color: cadetblue; */
+height: auto;
+width: auto;
+font-family: cursive;
+}
+.MovieTitle {
+  font-size: 3.5vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.movieTags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  font-size: 25px;
+  flex: 2;
+}
+.ModalDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+  /* border: solid 3px; */
+}
+.ModalPoster {
+  border: solid;
+}
+.Home-Container{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.XButton-Container {
+  height: 20px;
+  display: flex;
+  justify-content: end;
+  background-color: cadetblue;
+}
+.XButton {
+  margin-right: 10px;
+  margin-top: 5px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: cadetblue;
+}
+.XButton:hover {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: black;
+  margin-bottom: 15px;
+  font-size: 25px;
+  width: 25px;
+  border: solid;
+  border-radius: 25%;
+}
