@@ -122,6 +122,7 @@
   border: solid 5px;
   border-radius: 1%;
   background-color: cadetblue;
+  padding: 30px;
   margin-top: 30px;
 }
 .MovieDetailsContent {
@@ -140,7 +141,7 @@ font-family: cursive;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  width: 95%;
+  width: auto;
   font-size: 25px;
   flex: 2;
 }

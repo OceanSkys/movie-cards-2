@@ -18,7 +18,7 @@ const MovieDetails = (props) => {
           <ul className="movieTags">
             <div>
               <li className="tags">{ props.movie.Rated }</li>
-              <li className="tags"> { props.movie.imdbRating } </li>
+              <li className="tags">Rating: { props.movie.imdbRating }/10</li>
             </div>
             <div>
               <li className="tags">{ props.movie.Genre }</li>

@@ -63,7 +63,7 @@ return (
             </div>
           ))
         ) : (
-          <div style={{background: 'white', height: '50px', width: '250px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>No movies found/Searched</div>            
+          <div style={{background: 'white', height: '50px', width: '250px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>No movies found/searched</div>            
         )}
       </div>
      ) : (

@@ -9,7 +9,7 @@ const modalStyles = {
       alignItems: "center",
     },
     content: {
-      // backgroundColor: 'cadetblue',
+      backgroundColor: 'aliceblue',
       position: "relative",
       width: 800,
       height: 600,
