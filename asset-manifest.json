@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/OceanSkys/movie-cards-2/static/css/main.190b67dc.css",
+    "main.js": "/OceanSkys/movie-cards-2/static/js/main.97e762f2.js",
+    "static/js/787.5d5ea81f.chunk.js": "/OceanSkys/movie-cards-2/static/js/787.5d5ea81f.chunk.js",
+    "static/media/pexels-pixabay-274937.jpg": "/OceanSkys/movie-cards-2/static/media/pexels-pixabay-274937.9ec7c6f24eefc5cad512.jpg",
+    "static/media/logo.svg": "/OceanSkys/movie-cards-2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/OceanSkys/movie-cards-2/index.html",
+    "main.190b67dc.css.map": "/OceanSkys/movie-cards-2/static/css/main.190b67dc.css.map",
+    "main.97e762f2.js.map": "/OceanSkys/movie-cards-2/static/js/main.97e762f2.js.map",
+    "787.5d5ea81f.chunk.js.map": "/OceanSkys/movie-cards-2/static/js/787.5d5ea81f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.190b67dc.css",
+    "static/js/main.97e762f2.js"
+  ]
+}
